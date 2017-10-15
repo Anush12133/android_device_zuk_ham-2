@@ -80,6 +80,9 @@ QCOM_BT_USE_SMD_TTY                         := true
 BLUETOOTH_HCI_USE_MCT                       := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Boot animation
 TARGET_BOOTANIMATION_MULTITHREAD_DECODE := true
 
@@ -166,6 +169,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
+
+# Compile libhwui in performance mode
+HWUI_COMPILE_FOR_PERF := true
 
 # RPC 
 TARGET_NO_RPC := true
