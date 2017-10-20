@@ -127,7 +127,11 @@ PRODUCT_PACKAGES += \
 
 # Weather providers
 PRODUCT_PACKAGES += \
-     OpenWeatherMapWeatherProvider \
+
+     OpenWeatherMapProvider \
+
+
+
      YahooWeatherProvider \
      WundergroundWeatherProvider
 
