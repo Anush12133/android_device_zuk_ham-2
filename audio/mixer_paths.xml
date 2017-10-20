@@ -930,6 +930,15 @@
         <ctl name="QCHAT_Tx Mixer SLIM_0_TX_QCHAT" value="1" />
     </path>
 
+    <!-- Analog output devices -->
+    <path name="ear">
+        <ctl name="RX1 MIX1 INP1" value="RX1" />
+        <ctl name="CLASS_H_DSM MUX" value="DSM_HPHL_RX1" />
+        <ctl name="RX1 Digital Volume" value="100" />
+        <ctl name="EAR PA Gain" value="POS_6_DB" />
+        <ctl name="DAC1 Switch" value="1" />
+    </path>
+
     <path name="qchat-call bt-sco">
         <ctl name="INTERNAL_BT_SCO_RX_Voice Mixer QCHAT" value="1" />
         <ctl name="QCHAT_Tx Mixer INTERNAL_BT_SCO_TX_QCHAT" value="1" />
@@ -1888,5 +1897,4 @@
         <path name="voice-handset" />
         <path name="deep-buffer-playback" />
     </path>
-
 </mixer>

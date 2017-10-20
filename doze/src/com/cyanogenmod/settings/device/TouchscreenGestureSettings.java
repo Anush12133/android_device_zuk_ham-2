@@ -16,6 +16,11 @@
 
 package com.cyanogenmod.settings.device;
 
+
+
+
+
+
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 
@@ -30,6 +35,13 @@ public class TouchscreenGestureSettings extends PreferenceActivity {
     @Override
     protected void onResume() {
         super.onResume();
+
+
+ 
+
+
+
+
 
 
     }
