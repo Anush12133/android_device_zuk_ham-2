@@ -1,9 +1,4 @@
-
-
-
-
-
-add_lunch_combo du_ham-user
-add_lunch_combo du_ham-userdebug
-add_lunch_combo du_ham-eng
+add_lunch_combo dot_ham-user
+add_lunch_combo dot_ham-userdebug
+add_lunch_combo dot_ham-eng
 
