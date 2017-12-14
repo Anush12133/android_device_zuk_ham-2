@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2010 The Android Open Source Project
-<<<<<<< HEAD
-     Copyright (C) 2012-2013 The Linux Foundation. All rights reserved.
-=======
      Copyright (C) 2014 The Linux Foundation. All rights reserved.
->>>>>>> 345c5d3... Create media_profiles.xml
      Not a contribution.
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -97,21 +93,7 @@
 <MediaSettings>
     <!-- Each camcorder profile defines a set of predefined configuration parameters -->
     <!-- Back Camera -->
-<<<<<<< HEAD
-    <CamcorderProfiles cameraId="0">
 
-    <EncoderProfile quality="low" fileFormat="mp4" duration="60">
-      <Video codec="h264"
-             bitRate="512000"
-             width="320"
-             height="240"
-             frameRate="30" />
-
-      <Audio codec="aac"
-             bitRate="156000"
-             sampleRate="48000"
-             channels="2" />
-=======
     <CamcorderProfiles cameraId="0" startOffsetMs="300">
 
     <EncoderProfile quality="low" fileFormat="3gp" duration="30">
@@ -125,19 +107,10 @@
              bitRate="12200"
              sampleRate="8000"
              channels="1" />
->>>>>>> 345c5d3... Create media_profiles.xml
     </EncoderProfile>
 
     <EncoderProfile quality="high" fileFormat="mp4" duration="30">
       <Video codec="h264"
-<<<<<<< HEAD
-             bitRate="65000000"
-             width="3840"
-             height="2160"
-             frameRate="30" />
-      <Audio codec="aac"
-             bitRate="320000"
-=======
              bitRate="42000000"
              width="3840"
              height="2160"
@@ -145,7 +118,6 @@
 
       <Audio codec="aac"
              bitRate="156000"
->>>>>>> 345c5d3... Create media_profiles.xml
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
@@ -163,19 +135,6 @@
              channels="2" />
     </EncoderProfile>
 
-<<<<<<< HEAD
-    <EncoderProfile quality="vga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="2000000"
-             width="640"
-             height="480"
-             frameRate="30" />
-
-      <Audio codec="aac"
-             bitRate="156000"
-             sampleRate="48000"
-             channels="2" />
-=======
 <!--    <EncoderProfile quality="fwvga" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="2000000"
@@ -200,7 +159,6 @@
              bitRate="12200"
              sampleRate="8000"
              channels="1" />
->>>>>>> 345c5d3... Create media_profiles.xml
     </EncoderProfile>
 
     <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
@@ -237,39 +195,11 @@
              frameRate="30" />
 
       <Audio codec="aac"
-<<<<<<< HEAD
-             bitRate="256000"
-=======
              bitRate="156000"
->>>>>>> 345c5d3... Create media_profiles.xml
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
 
-<<<<<<< HEAD
-    <EncoderProfile quality="2160p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="65000000"
-             width="3840"
-             height="2160"
-             frameRate="30" />
-
-      <Audio codec="aac"
-             bitRate="320000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
-
-    <EncoderProfile quality="4kdci" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="65000000"
-             width="4096"
-             height="2160"
-             frameRate="24" />
-
-      <Audio codec="aac"
-             bitRate="320000"
-=======
     <EncoderProfile quality="4kdci" fileFormat="mp4" duration="30">
       <Video codec="h264"
             bitRate="42000000"
@@ -331,25 +261,12 @@
 
       <Audio codec="aac"
              bitRate="156000"
->>>>>>> 345c5d3... Create media_profiles.xml
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
 
     <EncoderProfile quality="timelapselow" fileFormat="mp4" duration="30">
       <Video codec="h264"
-<<<<<<< HEAD
-             bitRate="512000"
-             width="320"
-             height="240"
-             frameRate="30" />
-
-      <!-- audio setting is ignored -->
-      <Audio codec="aac"
-             bitRate="156000"
-             sampleRate="48000"
-             channels="2" />
-=======
              bitRate="192000"
              width="176"
              height="144"
@@ -360,48 +277,22 @@
              bitRate="12200"
              sampleRate="8000"
              channels="1" />
->>>>>>> 345c5d3... Create media_profiles.xml
     </EncoderProfile>
 
     <EncoderProfile quality="timelapsehigh" fileFormat="mp4" duration="30">
       <Video codec="h264"
-<<<<<<< HEAD
-             bitRate="65000000"
-=======
              bitRate="42000000"
->>>>>>> 345c5d3... Create media_profiles.xml
              width="3840"
              height="2160"
              frameRate="30" />
 
       <!-- audio setting is ignored -->
       <Audio codec="aac"
-<<<<<<< HEAD
-             bitRate="320000"
-=======
              bitRate="156000"
->>>>>>> 345c5d3... Create media_profiles.xml
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
 
-<<<<<<< HEAD
-=======
-    <EncoderProfile quality="timelapseqcif" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="192000"
-             width="176"
-             height="144"
-             frameRate="30" />
-
-      <!-- audio setting is ignored -->
-      <Audio codec="amrnb"
-             bitRate="12200"
-             sampleRate="8000"
-             channels="1" />
-    </EncoderProfile>
-
->>>>>>> 345c5d3... Create media_profiles.xml
     <EncoderProfile quality="timelapsecif" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="720000"
@@ -425,14 +316,7 @@
              frameRate="30" />
 
       <!-- audio setting is ignored -->
-<<<<<<< HEAD
-      <Audio codec="aac"
-             bitRate="156000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
 
-=======
       <Audio codec="amrnb"
              bitRate="12200"
              sampleRate="8000"
@@ -453,7 +337,6 @@
              channels="1" />
     </EncoderProfile>-->
 
->>>>>>> 345c5d3... Create media_profiles.xml
     <EncoderProfile quality="timelapsevga" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="2000000"
@@ -462,14 +345,7 @@
              frameRate="30" />
 
       <!-- audio setting is ignored -->
-<<<<<<< HEAD
-      <Audio codec="aac"
-             bitRate="156000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
 
-=======
       <Audio codec="amrnb"
              bitRate="12200"
              sampleRate="8000"
@@ -504,7 +380,6 @@
              channels="1" />
     </EncoderProfile>-->
 
->>>>>>> 345c5d3... Create media_profiles.xml
     <EncoderProfile quality="timelapse480p" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="2000000"
@@ -542,27 +417,11 @@
 
       <!-- audio setting is ignored -->
       <Audio codec="aac"
-<<<<<<< HEAD
-             bitRate="256000"
-=======
              bitRate="156000"
->>>>>>> 345c5d3... Create media_profiles.xml
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
 
-<<<<<<< HEAD
-    <EncoderProfile quality="timelapse2160p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="65000000"
-             width="3840"
-             height="2160"
-             frameRate="30" />
-
-      <!-- audio setting is ignored -->
-      <Audio codec="aac"
-             bitRate="320000"
-=======
     <EncoderProfile quality="timelapse4kdci" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="42000000"
@@ -572,30 +431,10 @@
 
       <Audio codec="aac"
              bitRate="156000"
->>>>>>> 345c5d3... Create media_profiles.xml
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
 
-<<<<<<< HEAD
-    <EncoderProfile quality="timelapse4kdci" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="65000000"
-             width="4096"
-             height="2160"
-             frameRate="24" />
-
-      <!-- audio setting is ignored -->
-      <Audio codec="aac"
-             bitRate="320000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
-
-        <ImageEncoding quality="95" />
-        <ImageEncoding quality="80" />
-        <ImageEncoding quality="70" />
-=======
     <EncoderProfile quality="timelapse2160p" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="42000000"
@@ -670,26 +509,11 @@
         <ImageEncoding quality="100" />
         <ImageEncoding quality="100" />
         <ImageEncoding quality="100" />
->>>>>>> 345c5d3... Create media_profiles.xml
         <ImageDecoding memCap="20000000" />
 
     </CamcorderProfiles>
     <!-- Front Camera -->
-<<<<<<< HEAD
-    <CamcorderProfiles cameraId="1">
 
-    <EncoderProfile quality="low" fileFormat="mp4" duration="60">
-      <Video codec="h264"
-             bitRate="512000"
-             width="320"
-             height="240"
-             frameRate="30" />
-
-      <Audio codec="aac"
-             bitRate="156000"
-             sampleRate="48000"
-             channels="2" />
-=======
     <CamcorderProfiles cameraId="1" startOffsetMs="300">
 
     <EncoderProfile quality="low" fileFormat="3gp" duration="30">
@@ -703,20 +527,14 @@
              bitRate="12200"
              sampleRate="8000"
              channels="1" />
->>>>>>> 345c5d3... Create media_profiles.xml
     </EncoderProfile>
 
     <EncoderProfile quality="high" fileFormat="mp4" duration="30">
       <Video codec="h264"
-<<<<<<< HEAD
-             bitRate="14000000"
-             width="1280"
-             height="720"
-=======
+
              bitRate="20000000"
              width="1920"
              height="1080"
->>>>>>> 345c5d3... Create media_profiles.xml
              frameRate="30" />
 
       <Audio codec="aac"
@@ -725,22 +543,6 @@
              channels="2" />
     </EncoderProfile>
 
-<<<<<<< HEAD
-    <EncoderProfile quality="cif" fileFormat="3gp" duration="30">
-      <Video codec="h264"
-             bitRate="720000"
-             width="352"
-             height="288"
-             frameRate="30" />
-
-      <Audio codec="amrnb"
-             bitRate="12200"
-             sampleRate="8000"
-             channels="1" />
-    </EncoderProfile>
-
-=======
->>>>>>> 345c5d3... Create media_profiles.xml
     <EncoderProfile quality="qvga" fileFormat="mp4" duration="60">
       <Video codec="h264"
              bitRate="512000"
@@ -754,19 +556,6 @@
              channels="2" />
     </EncoderProfile>
 
-<<<<<<< HEAD
-    <EncoderProfile quality="vga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="2000000"
-             width="640"
-             height="480"
-             frameRate="30" />
-
-      <Audio codec="aac"
-             bitRate="156000"
-             sampleRate="48000"
-             channels="2" />
-=======
 <!--    <EncoderProfile quality="fwvga" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="2000000"
@@ -791,7 +580,6 @@
              bitRate="12200"
              sampleRate="8000"
              channels="1" />
->>>>>>> 345c5d3... Create media_profiles.xml
     </EncoderProfile>
 
     <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
@@ -828,21 +616,6 @@
              frameRate="30" />
 
       <Audio codec="aac"
-<<<<<<< HEAD
-             bitRate="256000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
-    
-    <EncoderProfile quality="timelapselow" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="512000"
-             width="320"
-             height="240"
-             frameRate="30" />
-
-      <!-- audio setting is ignored -->
-=======
              bitRate="156000"
              sampleRate="48000"
              channels="2" />
@@ -868,54 +641,18 @@
              height="480"
              frameRate="30" />
 
->>>>>>> 345c5d3... Create media_profiles.xml
       <Audio codec="aac"
              bitRate="156000"
              sampleRate="48000"
              channels="2" />
-<<<<<<< HEAD
-=======
-    </EncoderProfile>-->
 
-     <EncoderProfile quality="vga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="2000000"
-             width="640"
-             height="480"
-             frameRate="30" />
-
-      <Audio codec="aac"
-             bitRate="156000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
-
-    <EncoderProfile quality="timelapselow" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="192000"
-             width="176"
-             height="144"
-             frameRate="30" />
-
-      <!-- audio setting is ignored -->
-      <Audio codec="amrnb"
-             bitRate="12200"
-             sampleRate="8000"
-             channels="1" />
->>>>>>> 345c5d3... Create media_profiles.xml
     </EncoderProfile>
 
     <EncoderProfile quality="timelapsehigh" fileFormat="mp4" duration="30">
       <Video codec="h264"
-<<<<<<< HEAD
-             bitRate="14000000"
-             width="1280"
-             height="720"
-=======
              bitRate="20000000"
              width="1920"
              height="1080"
->>>>>>> 345c5d3... Create media_profiles.xml
              frameRate="30" />
 
       <!-- audio setting is ignored -->
@@ -925,8 +662,6 @@
              channels="2" />
     </EncoderProfile>
 
-<<<<<<< HEAD
-=======
     <EncoderProfile quality="timelapseqcif" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="192000"
@@ -941,7 +676,6 @@
              channels="1" />
     </EncoderProfile>
 
->>>>>>> 345c5d3... Create media_profiles.xml
     <EncoderProfile quality="timelapsecif" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="1200000"
@@ -951,13 +685,8 @@
 
       <!-- audio setting is ignored -->
       <Audio codec="aac"
-<<<<<<< HEAD
-             bitRate="12200"
-             sampleRate="8000"
-=======
              bitRate="96000"
              sampleRate="48000"
->>>>>>> 345c5d3... Create media_profiles.xml
              channels="1" />
     </EncoderProfile>
 
@@ -969,14 +698,6 @@
              frameRate="30" />
 
       <!-- audio setting is ignored -->
-<<<<<<< HEAD
-      <Audio codec="aac"
-             bitRate="156000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
-
-=======
       <Audio codec="amrnb"
              bitRate="12200"
              sampleRate="8000"
@@ -997,7 +718,6 @@
              channels="1" />
     </EncoderProfile>-->
 
->>>>>>> 345c5d3... Create media_profiles.xml
     <EncoderProfile quality="timelapsevga" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="2000000"
@@ -1006,14 +726,6 @@
              frameRate="30" />
 
       <!-- audio setting is ignored -->
-<<<<<<< HEAD
-      <Audio codec="aac"
-             bitRate="156000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
-
-=======
       <Audio codec="amrnb"
              bitRate="12200"
              sampleRate="8000"
@@ -1048,7 +760,6 @@
              channels="1" />
     </EncoderProfile>-->
 
->>>>>>> 345c5d3... Create media_profiles.xml
     <EncoderProfile quality="timelapse480p" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="5000000"
@@ -1065,26 +776,16 @@
 
     <EncoderProfile quality="timelapse720p" fileFormat="mp4" duration="30">
       <Video codec="h264"
-<<<<<<< HEAD
-             bitRate="14000000"
-=======
              bitRate="8000000"
->>>>>>> 345c5d3... Create media_profiles.xml
              width="1280"
              height="720"
              frameRate="30" />
 
       <!-- audio setting is ignored -->
       <Audio codec="aac"
-<<<<<<< HEAD
-             bitRate="156000"
-             sampleRate="48000"
-             channels="2" />
-=======
              bitRate="96000"
              sampleRate="48000"
              channels="1" />
->>>>>>> 345c5d3... Create media_profiles.xml
     </EncoderProfile>
 
     <EncoderProfile quality="timelapse1080p" fileFormat="mp4" duration="30">
@@ -1096,24 +797,14 @@
 
       <!-- audio setting is ignored -->
       <Audio codec="aac"
-<<<<<<< HEAD
-             bitRate="256000"
-=======
              bitRate="156000"
->>>>>>> 345c5d3... Create media_profiles.xml
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
 
-<<<<<<< HEAD
-        <ImageEncoding quality="95" />
-        <ImageEncoding quality="80" />
-        <ImageEncoding quality="70" />
-=======
         <ImageEncoding quality="100" />
         <ImageEncoding quality="100" />
         <ImageEncoding quality="100" />
->>>>>>> 345c5d3... Create media_profiles.xml
         <ImageDecoding memCap="20000000" />
 
     </CamcorderProfiles>
@@ -1143,11 +834,8 @@
         maxHFRMode="0"  />
 
     <VideoEncoderCap name="m4v" enabled="true"
-<<<<<<< HEAD
-        minBitRate="64000" maxBitRate="65000000"
-=======
+
         minBitRate="64000" maxBitRate="20000000"
->>>>>>> 345c5d3... Create media_profiles.xml
         minFrameWidth="176" maxFrameWidth="1920"
         minFrameHeight="144" maxFrameHeight="1088"
         minFrameRate="15" maxFrameRate="30"
@@ -1155,11 +843,7 @@
         maxHFRMode="0"  />
 
     <AudioEncoderCap name="aac" enabled="true"
-<<<<<<< HEAD
-        minBitRate="8000" maxBitRate="320000"
-=======
         minBitRate="8000" maxBitRate="96000"
->>>>>>> 345c5d3... Create media_profiles.xml
         minSampleRate="8000" maxSampleRate="48000"
         minChannels="1" maxChannels="6" />
 
@@ -1183,17 +867,11 @@
         minSampleRate="8000" maxSampleRate="8000"
         minChannels="1" maxChannels="1" />
 
-<<<<<<< HEAD
-    <AudioEncoderCap name="lpcm" enabled="true"
-        minBitRate="768000" maxBitRate="4608000"
-        minSampleRate="48000" maxSampleRate="48000"
-        minChannels="1" maxChannels="6" />
-=======
+
 <!--    <AudioEncoderCap name="lpcm" enabled="true"
         minBitRate="768000" maxBitRate="4608000"
         minSampleRate="48000" maxSampleRate="48000"
         minChannels="1" maxChannels="6" />-->
->>>>>>> 345c5d3... Create media_profiles.xml
 
     <!--
         FIXME:
@@ -1228,19 +906,6 @@
         These values are for video encoder.
     -->
     <!--
-<<<<<<< HEAD
-      Codec = h.264, Baseline profile, level 4.0
-    -->
-    <ExportVideoProfile name="h264" profile= "1" level="2048"/>
-    <!--
-      Codec = h.263, Baseline profile, level 70
-    -->
-    <ExportVideoProfile name="h263" profile= "1" level="128"/>
-    <!--
-      Codec = mpeg4, Simple profile, level 5
-    -->
-    <ExportVideoProfile name="m4v" profile= "1" level="128"/>
-=======
       Codec = h.264, Baseline profile, level 4.1
     -->
     <ExportVideoProfile name="h264" profile= "1" level="1"/>
@@ -1252,5 +917,4 @@
       Codec = mpeg4, Simple profile, level 5
     -->
     <ExportVideoProfile name="m4v" profile= "1" level="1"/>
->>>>>>> 345c5d3... Create media_profiles.xml
 </MediaSettings>
